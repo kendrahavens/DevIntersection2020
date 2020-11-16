@@ -1,0 +1,46 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29827.131
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorMemoryGame", "BlazorMemoryGame\BlazorMemoryGame.csproj", "{842CDE3B-6B52-4660-9BE1-EE631D22EE00}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorMemoryGame.Test", "BlazorMemoryGame.Test\BlazorMemoryGame.Test.csproj", "{64E3325C-65E4-410F-8D83-2A7C8B13523D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{DFE2B185-467D-470B-9286-5610E86A1166}"
+	ProjectSection(SolutionItems) = preProject
+		.devcontainer.json = .devcontainer.json
+		.devinit.json = .devinit.json
+		.editorconfig = .editorconfig
+		.github\workflows\blazormemorygame.yml = .github\workflows\blazormemorygame.yml
+		.github\workflows\build.yml = .github\workflows\build.yml
+		container-deploy.yml = container-deploy.yml
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NET5BenchmarkTests", "NET5BenchmarkTests\NET5BenchmarkTests.csproj", "{41F7A11F-5794-4EB3-8853-9C57D27FE8CF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{842CDE3B-6B52-4660-9BE1-EE631D22EE00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{842CDE3B-6B52-4660-9BE1-EE631D22EE00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{842CDE3B-6B52-4660-9BE1-EE631D22EE00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{842CDE3B-6B52-4660-9BE1-EE631D22EE00}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64E3325C-65E4-410F-8D83-2A7C8B13523D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64E3325C-65E4-410F-8D83-2A7C8B13523D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64E3325C-65E4-410F-8D83-2A7C8B13523D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64E3325C-65E4-410F-8D83-2A7C8B13523D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{41F7A11F-5794-4EB3-8853-9C57D27FE8CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41F7A11F-5794-4EB3-8853-9C57D27FE8CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41F7A11F-5794-4EB3-8853-9C57D27FE8CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41F7A11F-5794-4EB3-8853-9C57D27FE8CF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E0CEAFF8-5D51-47B6-8D67-494F833506C4}
+	EndGlobalSection
+EndGlobal
